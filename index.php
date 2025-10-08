@@ -1,3 +1,3 @@
 <?php
 
-require "config/poo.php";
+require "views/cadastroaluno.php";

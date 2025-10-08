@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style_cadastro.css">
+    <link rel="stylesheet" href="views/css/style_cadastro.css">
     <title>Teste</title>
 </head>
 <body>
-    <form action="../controller/controllercadastroaluno.php" method="post">
+    <form action="controller/controllercadastroaluno.php" method="post">
         <div class="formulario">
         <div class="formularionome">
         <label for="nome">Nome:</label>
@@ -20,6 +20,7 @@
         <div class="formulariobotao">
         <input type="submit" value="Enviar" class="formulariobotaoenviar">
     <?php 
+
     if(isset($_GET['sucesso'])){
         if($_GET['sucesso'] == 1){
             echo "<p class='msg-retorno-sucesso'>Cadastro realizado com sucesso</p>";
@@ -28,7 +29,7 @@
         }
     }
     ?>
-        <a href="../controller/controllerlistaalunos.php" class="linklistaalunos">Lista de Alunos</a>
+        <a href="controller/controllerlistaalunos.php" class="linklistaalunos">Lista de Alunos</a>
     </div></div>
     </form>
 </body>
