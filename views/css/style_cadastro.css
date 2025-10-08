@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    outline: 0px solid red;
+    font-family: Helvetica;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: grey;
+}
+
+input{
+    width: 56.25%;
+    padding: 3%;
+    border-radius: 7px;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    height: 60dvh;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 30%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(232, 232, 232);
+    border-radius: 7px;
+    gap: 5%;
+}
+
+.formularionome{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    padding: 3%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.formulariodatanasc{
+display: flex;
+flex-direction: row;
+width: 60%;
+    padding: 3%;
+justify-content: space-between;
+align-items: center;
+}
+
+.formulariobotao{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: center;
+    gap: 3%;
+}
+
+.formulariobotaoenviar{
+    display: flex;
+    padding: 6%;
+    background-color: green;
+    color: white;
+    border-radius: 7px;
+    font-weight: bold;
+    border: none;
+    font-size: 11pt;
+    transition: all 0.1s ease-in-out;
+}
+
+.formulariobotaoenviar:hover{
+    background-color: rgb(105, 173, 36);
+}
+
+.linklistaalunos{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: flex;
+    padding: 6%;
+    background-color: rgb(79, 118, 155);
+    border-radius: 7px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    font-size: 11pt;
+    transition: all 0.1s ease-in-out;
+}
+
+.linklistaalunos:hover{
+    background-color: rgb(112, 185, 192);
+}
